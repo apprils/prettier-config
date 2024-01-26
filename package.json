@@ -14,5 +14,8 @@
         "npm pack --pack-destination var/pub"
       ]
     }
+  },
+  "devDependencies": {
+    "release-it": "^17.0.3"
   }
 }
