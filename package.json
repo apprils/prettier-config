@@ -8,6 +8,9 @@
   ],
   "main": "prettierrc.json",
   "release-it": {
+    "publishConfig": {
+      "access": "public"
+    },
     "hooks": {
       "after:release": [
         "mkdir -p var/pub",
